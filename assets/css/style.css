@@ -1,0 +1,22 @@
+img {
+	width: 150px;
+	height: 150px;
+	padding-right: 10px;
+	float: left;
+}
+
+#currentCount {
+	clear: both;
+	padding-top: 10px;
+}
+
+#winLoss, #instructions, #current {
+	width: 630px;
+	background: #b3e0ff;
+	padding: 5px;
+	margin: 10px 0px 10px 0px;
+}
+
+#current, #winLoss {
+	width: 300px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Crystals Collector</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="./assets/javascript/game.js"></script>
+
+</head>
+<body>
+
+<h1>Crystal Collector</h1>
+
+<div id="instructions">
+	<p>You will be given a random number at the start of the game</p>
+	<p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+	<p>You win the game by matching your total score to the random number shown.  You lose the game if your total score goes above the random number.</p>
+	<p>The value of each crystal is hidden from you until you click on it.</p>
+	<p>Each time when the game starts, the game will change the values of each crystal</p>
+</div>
+
+<!-- The number that the user needs to reach goes here -->
+<div>
+	
+</div>
+
+<!-- The players win loss record goes here -->
+<div id="winLoss">
+	<p id="target">Target Number: </p>
+	<hr>
+	<p id="wins">Wins: </p>
+	<hr>
+	<p id="losses">Losses: </p>
+</div>
+<div id="current">
+	<p id="currentCount">Current Count: </p>
+</div>
+<!-- This section contains the images of all crystals that the user will click and get random numbers which increment the total score -->
+<div id="crystalRow">
+	<img src="./assets/images/crystal1.jpg" class="crys" id="crystal1" >
+	<img src="./assets/images/crystal2.jpg" class="crys" id="crystal2" >
+	<img src="./assets/images/crystal3.jpg" class="crys" id="crystal3" >
+	<img src="./assets/images/crystal4.jpg" class="crys" id="crystal4" >
+</div>
+<br>
+
+
+
+</div>
+
+</body>
+
+
+</body>
+</html>
